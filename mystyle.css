@@ -1,0 +1,14 @@
+/*global*/
+a{
+    text-decoration: none;
+}
+
+/*header*/
+.primary-header{
+    background-image: url(img/header.jpg);
+    height: 400px;
+    background-size: cover;
+    color: white;
+    text-align: center;
+}
+    
