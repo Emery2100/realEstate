@@ -1,0 +1,13 @@
+.flex-gus{
+display:flex;
+flex-direction: row;
+justify-content: space-around;
+align-items: center;
+background-color: bisque;
+height: 500px
+}
+
+.flex-nicks{
+    background-color: yellow;
+    width: 200px;
+}

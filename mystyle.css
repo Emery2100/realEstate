@@ -1,7 +1,47 @@
 /*global*/
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: arial;
+}
+p{
+    line-height: 1.5;
+}
 a{
     text-decoration: none;
 }
+img{
+    max-width: 100%;
+}
+/*utility*/
+.container{
+    width: 80%;
+    margin: 50px auto;
+}
+
+.btn-details{
+    background-color: orange;
+    color: white;
+    padding: 5px;
+    font-size: 14px;
+    font-size: 12px;
+    letter-spacing: 2px;
+    display: block;
+    width: 100%;
+    text-align: center;
+    
+    
+    
+}
+
+.text-price{
+    color: green;
+    font-weight: bold;
+}
+    
+
 
 /*header*/
 .primary-header{
@@ -12,3 +52,23 @@ a{
     text-align: center;
 }
     
+/*flex*/
+.main-flex{
+display:flex;
+flex-direction: row;
+
+}
+
+/*houses*/
+
+.houses-container{
+
+}
+
+.house-item{
+background-color: #dedede;
+}
+
+.houses-item-text{
+padding: 20px;
+}
