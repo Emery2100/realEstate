@@ -87,11 +87,17 @@ margin: 5px;
 
 }
 
-.listing-img{
+.listing-container{
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
-    padding: 10px;
+    justify-content: space-around;
+    
+}
+
+.listing-img{
+    display: flex;
+    margin: 10px;
+    justify-content: space-around;
 }
 
 
